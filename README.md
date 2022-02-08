@@ -3,5 +3,5 @@ Install Docker and Compose
 
 ##
 ```
-wget -qO- install-docker-compse.sh | sudo bash /dev/stdin
+wget -qO- https://raw.githubusercontent.com/usanuman/install-docker-compose/main/install-docker-compse.sh | sudo bash /dev/stdin
 ```
