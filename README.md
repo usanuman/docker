@@ -3,5 +3,5 @@ Install Docker and Compose
 
 ##
 ```
-wget -qO- https://techoverflow.net/scripts/install-docker.sh | sudo bash /dev/stdin
+wget -qO- install-docker-compse.sh | sudo bash /dev/stdin
 ```
