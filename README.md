@@ -2,7 +2,7 @@
 Install Docker and Docker Compose in less than a minute.
 
 - Docker version 20.10.12, build e91ed57
-- Docker Compose version v2.2.3
+- Docker Compose version v2.6.1
 
 ##
 ```
