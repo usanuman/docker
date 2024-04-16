@@ -6,5 +6,11 @@ Install Docker and Docker Compose in less than a minute.
 
 ##
 ```
-wget -qO- https://raw.githubusercontent.com/usanuman/install-docker-compose/main/install-docker-compose.sh | sudo bash /dev/stdin
+wget -qO- https://raw.githubusercontent.com/usanuman/docker/main/install-docker-compose.sh | sudo bash /dev/stdin
+```
+
+
+##
+```
+wget -qO- https://raw.githubusercontent.com/usanuman/docker/main/remove-all-from-docker.sh | sudo bash /dev/stdin
 ```
