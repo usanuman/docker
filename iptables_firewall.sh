@@ -15,6 +15,10 @@ iptables -A INPUT -p tcp -m tcp -m state -m comment -s 0.0.0.0/0 --dport 22 --st
 iptables -A INPUT -p tcp -m tcp -m state -m comment -s 0.0.0.0/0 --dport 80 --state NEW -j ACCEPT --comment " HTTP "
 iptables -A INPUT -p tcp -m tcp -m state -m comment -s 0.0.0.0/0 --dport 443 --state NEW -j ACCEPT --comment " HTTPS "
 
+#DNS
+iptables -A INPUT -p tcp -m tcp -m state -m comment -s 0.0.0.0/0 --dport 53 --state NEW -j ACCEPT --comment " DNS "
+iptables -A INPUT -p udp -m udp -m state -m comment -s 0.0.0.0/0 --dport 53 --state NEW -j ACCEPT --comment " DNSUDP "
+
 # Allow PING's
 iptables -A INPUT -p icmp --icmp-type echo-request -j ACCEPT
 
