@@ -14,3 +14,8 @@ wget -qO- https://raw.githubusercontent.com/usanuman/docker/main/install-docker-
 ```
 wget -qO- https://raw.githubusercontent.com/usanuman/docker/main/remove-all-from-docker.sh | sudo bash /dev/stdin
 ```
+
+## iptables_firewall.sh
+```
+wget -qO- https://raw.githubusercontent.com/usanuman/docker/main/iptables_firewall.sh | sudo bash /dev/stdin
+```
